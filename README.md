@@ -18,7 +18,7 @@ The datasets include information on sold items, transactions, and date-specific 
 Data preprocessing involved merging the datasets and handling missing values. Feature engineering was also performed to add new variables, such as days from the beginning of the dataset and indicators for holidays.
 
 ### Include Image: Merged Data Structure
-[Insert image link for merged data overview]
+[https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/Data.jpeg]
 
 ---
 
