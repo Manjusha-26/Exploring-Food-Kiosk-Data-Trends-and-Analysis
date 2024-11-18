@@ -49,7 +49,7 @@ The density plot of prices provides insights into the range and skewness of the 
 A scatter plot with a LOESS curve demonstrates the relationship between price and quantity, indicating price elasticity and trends in consumer demand.
 
 **Image Placeholder: Price vs Quantity**
-[Insert image link for Price vs Quantity scatter plot]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/PriceVsQuantity.jpeg)
 
 ---
 
@@ -58,7 +58,7 @@ A scatter plot with a LOESS curve demonstrates the relationship between price an
 Boxplots comparing sales on holidays and non-holidays reveal significant differences in sales patterns, with lower sales during holiday periods.
 
 **Image Placeholder: Holiday Sales**
-[Insert image link for Holiday Sales boxplot]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/holidayvsquantity.jpeg)
 
 ---
 
@@ -67,7 +67,7 @@ Boxplots comparing sales on holidays and non-holidays reveal significant differe
 Scatter plots and trendlines highlight how weather conditions influence sales, showing a correlation between temperature and quantity sold.
 
 **Image Placeholder: Temperature vs Quantity**
-[Insert image link for Temperature vs Quantity scatter plot]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/QuantityvsTemp.jpeg)
 
 ---
 
@@ -76,7 +76,7 @@ Scatter plots and trendlines highlight how weather conditions influence sales, s
 Bar plots of monthly sales volumes highlight seasonal trends, with peaks and troughs reflecting consumer behavior across different times of the year.
 
 **Image Placeholder: Monthly Sales Trends**
-[Insert image link for Monthly Sales bar plot]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/MonthTransaction.jpeg)
 
 ---
 
@@ -101,5 +101,44 @@ This analysis provided valuable insights into the Food Kiosk dataset. These find
 
 A detailed summary of all datasets is provided for reference.
 
-**Image Placeholder: Data Summary**
-[Insert image link for overall data summary]
+### Sold dataset - Datasets/Cafe+-+Sell+Meta+Data.csv
+
+Information about Sold df: 
+
+SELL_ID: a categorical variable, identifier of the combination of items that is contained in the product.
+
+SELL_CATEGORY: “0” identifies single products; the category “2” identifies the combo ones.
+
+ITEM_ID: a categorical variable, identifier of the item that is contained in the product 1-to-1 relation with item_name.
+
+ITEM_NAME: a categorical variable, identifying the name of the item
+
+### Transaction dataset - Datasets/Cafe+-+Transaction+-+Store.csv
+
+Information about Transaction df: Important: It’s supposed the PRICE for that product in that day will not vary.
+
+In details: CALENDAR_DATE: a date/time variable, having the time always set to 00:00 AM.
+
+PRICE: a numeric variable, associated with the price of the product identified by the SELL_ID.
+
+QUANTITY: a numeric variable, associated with the quantity of the product sold, identified by the SELL_ID.
+
+SELL_ID: a categorical variable, identifier of the product sold.
+
+SELL_CATEGORY: a categorical variable, category of the product sold.
+
+### Dates dataset - Datasets/Cafe+-+DateInfo.csv
+Information about Dates df:
+CALENDAR_DATE: a date variable, associated with the date of the transaction
+
+YEAR: a numeric variable, associated with year of the trasaction
+
+HOLIDAY: a string variable, associated with the name of the Holiday, if it is not a holiday then N/A
+
+IS_WEEKEND: 1: Yes, 0 : No
+
+IS_SCHOOLBREAK: 1 : Yes, 0 : No
+
+AVERAGE_TEMPERATURE: a numeric variable, associated with the average temperature of the day
+
+IS_OUTDOOR: 1 : Yes, 0 : No
