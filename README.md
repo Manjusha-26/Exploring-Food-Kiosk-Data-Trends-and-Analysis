@@ -18,7 +18,7 @@ The datasets include information on sold items, transactions, and date-specific 
 Data preprocessing involved merging the datasets and handling missing values. Feature engineering was also performed to add new variables, such as days from the beginning of the dataset and indicators for holidays.
 
 ### Include Image: Merged Data Structure
-[https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/Data.jpeg]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/Data.jpeg)
 
 ---
 
@@ -29,7 +29,7 @@ Data preprocessing involved merging the datasets and handling missing values. Fe
 The histogram of quantities sold shows the distribution of sales, highlighting the frequency of popular item quantities.
 
 **Image Placeholder: Quantity Distribution**
-[Insert image link for Quantity Distribution histogram]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/DensityPlotQuantity.jpeg)
 
 ---
 
@@ -38,7 +38,7 @@ The histogram of quantities sold shows the distribution of sales, highlighting t
 The density plot of prices provides insights into the range and skewness of the price distribution.
 
 **Image Placeholder: Price Distribution**
-[Insert image link for Price Density Plot]
+![image](https://github.com/Manjusha-26/Exploring-Food-Kiosk-Data-Trends-and-Analysis/blob/main/Visualizations/PrinceDensity.jpeg)
 
 ---
 
