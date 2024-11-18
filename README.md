@@ -1,5 +1,5 @@
 # Exploring-Food-Kiosk-Data-Trends-and-Analysis
-# Author: "Manjusha Motamarry"
+## Author: Manjusha Motamarry
 
 ## Introduction
 
